@@ -906,6 +906,54 @@ grid-template-columns:1fr 1fr;
 
 }
 
+.hero{
+padding-top:380px !important;
+}
+
+.hero-image{
+position:absolute;
+top:120px;
+left:50%;
+transform:translateX(-50%);
+z-index:1;
+opacity:0.25;
+}
+
+.hero-image img{
+width:220px;
+height:220px;
+}
+
+.hero-content{
+position:relative;
+z-index:5;
+text-align:center;
+align-items:center;
+}
+
+.live-timer{
+top:170px !important;
+right:20px;
+font-size:11px;
+padding:7px 12px;
+}
+
+nav{
+gap:20px;
+}
+
+nav a{
+font-size:15px;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.subtext{
+text-align:center;
+}
+
 /* ========================= */
 /* LIVE TIMER (TOP RIGHT) */
 /* ========================= */
